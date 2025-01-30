@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "bcryptjs": "^2.4.3",
     "next": "15.0.0-rc.1",
+    "next-auth": "5.0.0-beta.25",
     "react": "19.0.0-rc-cd22717c-20241013",
     "react-dom": "19.0.0-rc-cd22717c-20241013"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
