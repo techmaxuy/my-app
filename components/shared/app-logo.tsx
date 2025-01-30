@@ -10,7 +10,7 @@ export default function AppLogo() {
           className={`${lusitana.className} flex flex-row items-end space-x-2`}
         >
           <Image
-            src="../public/logo.png"
+            src="/public/logo.png"
             width={32}
             height={32}
             alt={`${APP_NAME} logo`}
