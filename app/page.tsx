@@ -24,14 +24,14 @@ export default function Home() {
            </div>
            <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
              <Image
-               src="/public/hero-desktop.png"
+               src="/hero-desktop.png"
                width={1000}
                height={760}
                alt="Screenshots of the dashboard project showing desktop version"
                className="hidden md:block"
              />
              <Image
-               src="/public/hero-mobile.png"
+               src="/hero-mobile.png"
                width={560}
                height={620}
                alt="Screenshot of the dashboard project showing mobile version"
