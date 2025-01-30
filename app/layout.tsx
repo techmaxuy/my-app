@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+//import localFont from "next/font/local";
 import "./globals.css";
 import { APP_NAME, APP_DESCRIPTION, SERVER_URL } from "../lib/contants";
 import {inter} from "../components/shared/fonts";
