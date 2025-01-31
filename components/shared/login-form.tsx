@@ -4,14 +4,13 @@ import { ArrowRightIcon, AtSign, LockKeyhole, CircleAlert } from 'lucide-react'
 import { useActionState } from 'react'
 import { authenticate } from '../../lib/actions/user.actions'
 import { lusitana } from '../shared/fonts'
-import {Button} from '../ui/button'
+import { Button } from '../ui/button'
 
 export default function LoginForm() {
     const [errorMessage, formAction, isPending] = useActionState(
       authenticate,
       undefined
-    )
-  
+    )  
     return (
       <form action={formAction}>
         <div className="flex-1 rounded-lg  px-6 pb-4 pt-8">

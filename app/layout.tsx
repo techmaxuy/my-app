@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { APP_NAME, APP_DESCRIPTION, SERVER_URL } from "../lib/contants";
 import {inter} from "../components/shared/fonts";
+import { ThemeProvider } from "next-themes";
 
 export const metadata: Metadata = {
   title: {
@@ -23,7 +24,14 @@ export default function RootLayout({
       <body
         className={`${inter.className} antialiased`} 
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
