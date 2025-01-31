@@ -1,3 +1,5 @@
+'use client'
+
 import { ArrowRightIcon, AtSign, LockKeyhole, CircleAlert } from 'lucide-react'
 import { useActionState } from 'react'
 import { authenticate } from '../../lib/actions/user.actions'
