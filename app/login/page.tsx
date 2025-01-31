@@ -1,7 +1,20 @@
-export default function Home() {
-    return (    
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">  
-      Login Page  
+import { Card, CardContent, CardHeader } from '../../components/ui/card'
+import AppLogo from '../../components/shared/app-logo'
+import LoginForm from '../../components/shared/login-form'
+
+export default function LoginPage() {
+  return (
+    <div className="flex justify-center items-center min-h-screen w-full ">
+      <main className="w-full max-w-md mx-auto">
+        <Card>
+          <CardHeader className="space-y-4 flex justify-center items-center">
+            <AppLogo />
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <LoginForm />
+          </CardContent>
+        </Card>
       </main>
-    )
-  } 
+    </div>
+  )
+}
